@@ -1,10 +1,12 @@
-#include "Library.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include "User.h"
 
-int main()
+void main()
 {
-	Library library;
-	library.initLibrary();
-	library.runMain();
+	User u("tech");
 
-	return 0;
+	cout << u.GetUsername();
+
 }
